@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ruby on Rails Tutorial Sample App | <%= yield(:title) %></title>
+  <title>SampleApp</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%# responsible for inserting the contents of 
-each page into the layout %>
 <%= yield %>
 
 </body>
